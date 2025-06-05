@@ -6,7 +6,7 @@ Welcome to my personal knowledge base focused on **ultra-low-latency infrastruct
 
 ## 👋 Background
 
-I previously worked in a **FAANG-scale data center**, where the focus was on:
+I work in a **FAANG-scale data center**, where the focus was on:
 - Scalable automation
 - Resilient system architecture
 - Cloud-oriented infrastructure operations
