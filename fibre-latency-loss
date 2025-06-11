@@ -1,0 +1,40 @@
+# 📊 Fiber Optic Connector Comparison: Latency & Signal Loss
+
+This table summarizes how different fiber optic connectors perform in terms of insertion loss, return loss, stability, and latency—key factors for applications like HFT, telecom, and modern data centers.
+
+---
+
+## 🔌 Connector Performance Table
+
+| Connector   | Ferrule Size | Typical Insertion Loss | Return Loss (Reflection) | Vibration Stability | Latency Impact | Use Case Notes                                |
+|-------------|--------------|-------------------------|---------------------------|----------------------|----------------|-----------------------------------------------|
+| **LC**      | 1.25 mm      | ~0.1–0.3 dB             | >45 dB                    | Good                 | Very Low       | Ideal for data centers and low-jitter systems |
+| **SC**      | 2.5 mm       | ~0.2–0.5 dB             | >40 dB                    | Good                 | Low            | Common in enterprise and telecom networks     |
+| **ST**      | 2.5 mm       | ~0.2–0.5 dB             | ~30–40 dB                 | Moderate             | Low–Moderate   | Used in legacy networks                       |
+| **FC**      | 2.5 mm       | ~0.2–0.3 dB             | >45 dB                    | Excellent            | Very Low       | Great for labs and high-vibration setups      |
+| **MTP/MPO** | Multi-fiber  | ~0.3–0.7 dB             | >30–40 dB                 | Fair–Good            | Moderate       | High-density links; requires precise alignment|
+
+---
+
+## 🧪 Key Terms
+
+- **Insertion Loss (dB)**: Signal loss due to the connector. Lower is better.
+- **Return Loss (dB)**: Signal reflected back toward the source. Higher is better.
+- **Latency Impact**: Real-world delay effects due to reflection, jitter, or instability.
+- **Polish Types**:
+  - **UPC** (Ultra Physical Contact): ~-50 dB return loss (common).
+  - **APC** (Angled Physical Contact): ~-60 dB return loss (best for HFT/RF).
+
+---
+
+## 🏁 HFT / Low-Jitter Recommendations
+
+| Use Case                            | Recommended Connector | Polish | Reason                                         |
+|-------------------------------------|------------------------|--------|------------------------------------------------|
+| **High-frequency trading (HFT)**    | LC or FC               | APC    | Minimal reflection and excellent stability     |
+| **40G/100G/400G high-density links**| MTP/MPO                | UPC    | Compact, scalable, needs perfect alignment     |
+| **Legacy or general enterprise**    | SC or ST               | UPC    | Still usable, but less optimal for precision   |
+
+---
+
+> For optimal performance in latency-sensitive networks, use **APC-polished LC or FC connectors** with tight cleaning and alignment discipline.
